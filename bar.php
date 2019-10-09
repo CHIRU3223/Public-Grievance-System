@@ -4,16 +4,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:darkmagenta;
+  background-color:black;
   border: 1px solid ghostwhite;
-  border-radius: 40px;
+  border-radius: 35px;
 }
 li {
   float: left;
 }
 li a {
   display: block;
-  color: wheat;
+  color: white;
   text-align: center;
   padding-top: 20px;
   padding-left: 100px;
@@ -21,11 +21,12 @@ li a {
   padding-right: 110px;
   text-decoration: none;
   font-size: 18px;
+  font-weight:bold;
   transition: 0.2s;
 }
 
 li a:hover:not(.active) {
-  background-color: gold;
+  background-color: white;
   color: black;
   transform: scale(1.3);
 }
